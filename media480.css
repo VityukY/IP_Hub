@@ -1,0 +1,57 @@
+:root {
+   --main: #1B1B1B;
+   --acent: #DA4533;
+   --text: white;
+   --secondary-text: #8A8A8A;
+
+}
+
+@media screen and (max-width: 767px) {
+   /**********************************************HERO*****************************************/
+   .hero {
+         background-color: var(--main);
+         color: var(--text);
+      }
+      a{
+         color: var(--text);
+      }
+      .hero_subtitle {
+         color: var(--secondary-text);
+      }
+      .hero_title {
+         color: var(--text)
+      }
+      .hero_description{
+         color: var(--secondary-text);
+      }
+      .form_button {
+         background-color: var(--acent);
+         color:var(--text)
+      }
+      /*----------------------EXPA---------------------------------------*/
+      .expa_title {
+         color:var(--text)
+      }
+      .expa_descrip{
+         color: var(--secondary-text);
+      }
+      .expa_list_item {
+         width: 210px;
+         border: 5px solid red;
+         border-image: linear-gradient(to right, rgba(248, 80, 50, 1) 0%, rgba(241, 111, 92, 1) 0%, rgba(246, 41, 12, 1) 0%, rgba(215, 4, 8, 1) 0%, rgba(218, 69, 51, 0.94) 6%, rgba(240, 47, 23, 0.55) 45%, rgba(240, 47, 23, 0) 100%);
+      }
+      .expa_list_item>.title {
+      color: var(--text)
+      }
+
+      .expa_list_item > .descrip {
+         color: var(--secondary-text);
+      }
+      /*----------------------------PRACTICE---------------------------------*/
+      .practice_title {
+         color: var(--text);
+      }
+      .practice_discrip{
+         color: var(--secondary-text);
+      }
+   }

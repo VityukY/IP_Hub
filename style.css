@@ -1,0 +1,17 @@
+.button {
+   color: red;
+   border: 1px solid red;
+   display: flex;
+   border-radius: 55%;
+   height: 41px;
+   width: 135px;
+   justify-content: center;
+   align-items: center;
+}
+:root {
+   --main:#1B1B1B;
+   --acent:#DA4533;
+   --text:white;
+   --secondary-text: #8A8A8A;
+
+}
